@@ -1,4 +1,4 @@
-def between(number_1, number_2, number_3)
+def between_strict(number_1, number_2, number_3)
     a = number_1
     b = number_2
     c = number_3
@@ -9,5 +9,3 @@ def between(number_1, number_2, number_3)
     p output
     return output
 end
-
-between(1,1,3)
