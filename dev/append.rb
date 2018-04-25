@@ -1,4 +1,8 @@
 def append(arr,number)
-    arr << number
-    return arr
+    list = []
+    list << number
+    output = arr + list
+    return output
 end
+
+p append([1,2,3],4)
