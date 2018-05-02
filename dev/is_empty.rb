@@ -5,5 +5,3 @@ def is_empty(string)
     end 
     return output
 end
-
-p is_empty("hej hopp")
